@@ -11,4 +11,21 @@ The pre-trained baselines we use to train cost-sensitive deep networks can be fo
 To replicate the result, follow the steps:
 1) download desired folder from https://drive.google.com/file/d/19cMQjDOhZKrql7Vsmq0UPAMxvFgI12Xp/view?usp=sharing
 2) file mnist_baseline_train produces a pre-trained baseline model, which is already provided in the directory. File ...\csada.py or ...\AdvAug.py will produce the result of our algorithm, ...\_penalty.py will produce results for the penalty method, and ...\_sosr.py will produce results for the smooth one-sided regression (SOSR). ...\_compare.py compares the performance of CSADA and penalty method when there is only one critical error. Please refer to our paper for more details.  
-3) All the files are in place, so just run the corresponding files and get the results. 
+3) All the files are in place, so just run the corresponding files and get the results.
+
+## Citation
+
+[Paper](https://doi.org/10.1287/ijds.2022.0033) (INFORMS Journal on Data Science, 2025). If you use this code, please cite:
+
+```bibtex
+@article{chen2025rethinking,
+  title={Rethinking Cost-Sensitive Classification in Deep Learning via Adversarial Data Augmentation},
+  author={Chen, Qiyuan and Al Kontar, Raed and Nouiehed, Maher and Yang, X. Jessie and Lester, Corey},
+  journal={INFORMS Journal on Data Science},
+  volume={4},
+  number={1},
+  pages={1--19},
+  year={2025},
+  doi={10.1287/ijds.2022.0033}
+}
+```
